@@ -1,0 +1,337 @@
+@media (max-width: 1000px) {
+  .main1 header .on_burg {
+    display: block;
+  }
+  .main1 .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    color: white;
+    margin: 200px 0px;
+    padding: 30px;
+    gap: 150px;
+  }
+
+  .main1 .content .cont1 {
+    font-size: 20px;
+  }
+
+  .main1 .content .cont2 {
+    font-size: 50px;
+  }
+
+  .main1 .content .cont3 {
+    font-size: 18px;
+  }
+  .mn_burg {
+    display: none;
+  }
+  .main1 header {
+    justify-content: space-evenly;
+  }
+
+  .main2 {
+    display: none;
+  }
+
+  .mb {
+    color: white;
+    padding: 10px 10px;
+    position: relative;
+    background: #bf74fd;
+    border-radius: 5px;
+    font-size: 28px;
+  }
+
+  .card_bl1 .text {
+    column-gap: 20px;
+  }
+
+  .main3 .content_m3 .texts_m3 h3 {
+    font-size: 20px;
+  }
+  .main3 .content_m3 .texts_m3 h2 {
+    font-size: 40px;
+  }
+  .main3 .cards_m3 {
+    margin-bottom: 20px;
+  }
+  .main4 .content4 .cards_m4 {
+    row-gap: 30px;
+  }
+
+  .main4 .content4 .texts_m4 h3 {
+    margin: 63px 0px 23px 0px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .main4 .content4 .texts_m4 h2 {
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .main4 .content4 .cards_m4 .cards4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  .main4 .content4 .cards_m4 .cards4 .texts_c4 {
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .main4 .content4 .cards_m4 .cards4 .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .main4 .content4 .cards_m4 .cards4 .info .name {
+    color: #bf74fd;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+  }
+  .main4 .content4 .cards_m4 .cards4 .info .gor {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+  }
+  .main5 {
+    min-height: 1000px;
+  }
+
+  .main5 .content5 {
+    display: flex;
+
+    row-gap: 40px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main5 .content5 .texts_m5 h3 {
+    margin: 48px 0px 13px 0px;
+    font-size: 20px;
+  }
+  .main5 .content5 .texts_m5 h2 {
+    font-size: 40px;
+  }
+  .main5 img {
+    width: auto;
+    height: 500px;
+    object-fit: contain;
+    object-position: center;
+    padding: 10px;
+  }
+  .main5 .content5 .gallery {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 500px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 10px;
+  }
+
+  /*xsasa*/
+  .main6 .content6 .cards_m6 .card_m6 .card_bl1 {
+    row-gap: 10px;
+  }
+
+  .main6 .content6 .texts_m6 {
+    text-align: center;
+  }
+  .main6 .content6 .texts_m6 h3 {
+    margin: 45px 0px 13px 0px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .main6 .content6 .texts_m6 h2 {
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .main6 .content6 .cards_m6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 5px;
+  }
+
+  .card_bl1 .text {
+    display: flex;
+    flex-direction: row;
+    row-gap: 60px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .card_bl1 .text .btn1,
+  .card_bl1 .text .btn2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 7px;
+    align-items: center;
+  }
+
+  .main6 .content6 .cards_m6 .card_m6 .card_bl2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .card_m6 .card_bl2 .text1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .card_m6 .card_bl2 .text2 {
+    font-size: 15px;
+  }
+  .card_m6 .card_bl3 a {
+    color: #000;
+    transition: 0.4s;
+  }
+
+  .card_m6 .card_bl3 a:hover {
+    color: #bf74fd;
+  }
+
+  .card_m6 .card_bl3 button {
+    display: flex;
+    flex-direction: row;
+    column-gap: 23px;
+  }
+  .card_m6 .card_bl3 button .text_btn {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .card_m6 .card_bl3 button .img_btn i {
+    font-size: 20px;
+  }
+
+  .main7 .content7 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    row-gap: 130px;
+  }
+
+  .main7 .content7 .blk1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+  }
+
+  .main7 .content7 .blk1 .cont1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
+
+  .main7 .content7 .blk1 .cont1 .cont1_b1 img {
+    width: 160px;
+  }
+  .main7 .content7 .blk1 .cont1 .cont1_b2 p {
+    font-size: 20px;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+
+  .main7 .content7 .blk1 .cont1 .cont1_b3 ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+  }
+  .main7 .content7 .blk1 .cont1 .cont1_b3 ul a {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .main7 .content7 .blk1 .cont2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+  }
+
+  .main7 .content7 .blk1 .cont2 .name_f1 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .main7 .content7 .blk1 .cont2 .menu_f1 ul li {
+    list-style: circle;
+  }
+  .main7 .content7 .blk1 .cont2 .menu_f1 ul li a {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .main7 .content7 .blk1 .cont3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 38px;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+  }
+
+  .main7 .content7 .blk1 .cont3 .name_f2 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .main7 .content7 .blk1 .cont3 .lists_f1 ul li {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .main7 .content7 .blk1 .cont4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+  }
+
+  .main7 .content7 .blk1 .cont4 .name_f3 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .main7 .content7 .blk1 .cont4 .lists_f2 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 20px;
+  }
+
+  .main7 .content7 .blk1 .cont4 .lists_f2 ul li a {
+    color: #fff;
+    margin: 10px;
+  }
+
+  .main7 .content7 .blk2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    color: #fff;
+  }
+}
